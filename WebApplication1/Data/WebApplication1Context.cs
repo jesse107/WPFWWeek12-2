@@ -13,7 +13,7 @@ namespace WebApplication1.Data
             : base(options)
         {
         }
-
+        
         public DbSet<WebApplication1.Models.Student> Student { get; set; }
     }
 }
